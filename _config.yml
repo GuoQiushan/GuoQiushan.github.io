@@ -8,7 +8,7 @@ middle_name:
 last_name: 
 email: qsguo@cs.hku.hk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am a PhD student in computer vision, generative models, and large vision-language model. 
+  I received my PhD from The University of Hong Kong. My research focuses on computer vision, generative models, and large vision-language models.
 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
