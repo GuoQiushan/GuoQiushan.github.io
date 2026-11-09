@@ -1,0 +1,47 @@
+<div class="publications">
+  <ol class="bibliography">
+    <li>
+      <div class="row">
+        <div class="col-sm-2 abbr">
+          <img
+            src="{{ '/assets/img/publication_preview/seedream4_0.webp' | relative_url }}"
+            class="preview img-fluid z-depth-1 rounded"
+            alt="Seedream 4.0 image generation showcase"
+            width="1840"
+            height="810"
+            loading="lazy"
+          >
+        </div>
+        <div id="seedream4_0" class="col-sm-8">
+          <div class="title">Seedream 4.0</div>
+          <div class="author">Unified Image Generation and Editing</div>
+          <div class="links">
+            <a href="https://seed.bytedance.com/en/seedream4_0" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <div class="col-sm-2 abbr">
+          <img
+            src="{{ '/assets/img/publication_preview/seedance2_0.jpg' | relative_url }}"
+            class="preview img-fluid z-depth-1 rounded"
+            alt="Seedance 2.0 audio-video generation showcase"
+            width="1280"
+            height="720"
+            loading="lazy"
+          >
+        </div>
+        <div id="seedance2_0" class="col-sm-8">
+          <div class="title">Seedance 2.0</div>
+          <div class="author">Multimodal Audio-Video Generation</div>
+          <div class="links">
+            <a href="https://seed.bytedance.com/en/seedance2_0" class="btn btn-sm z-depth-0" role="button">Project Page</a>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ol>
+  {% bibliography --group_by none --query @*[selected=true]* %}
+</div>
